@@ -51,8 +51,7 @@ function showTodo(filter) {
     });
   }
   // Set the innerHTML of taskBox to either listTag or message indicating no tasks
-  taskBox.innerHTML =
-    listTag || `<span>You don't have any task right now!</span>`;
+  taskBox.innerHTML = listTag || `<span>You've GYATT to be RIZZing me!</span>`;
 
   // Check if there are any tasks present
   let checkTask = taskBox.querySelectorAll(".task");
